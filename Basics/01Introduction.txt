@@ -1,0 +1,45 @@
+JAVASCRIPT:
+It is used to display content dynamically on a webpage.
+Before JAVASCRIPT the conetent on the webpage is used to be displayed 
+in a static way.Like the animations and the real time information can be 
+viewed on a webpage using java script.
+
+Hello World in Java script:
+
+console.log("Hello World")
+
+
+VARIABLES:
+
+var x=10;
+The above mentioned is the syntax of declaring a variable in java script.
+Further the types of declarations are as below:
+
+let x=30;
+The value of the variable x can be changed in future.
+
+const y=99;
+The value of variable y cannot be changed in future.The variable cannot be 
+reassigned with some other value again.
+
+DATA TYPES:
+There are several data types like:
+Numbers(10,3.4)
+String("Hello",'Hi')
+Boolean(true,false)
+Array([1,2,3])
+objects({name:"Ash",age:19})
+
+
+JavaScript is a dynamically-typed language,
+which means that you don't have to specify the
+data type of a variable when you declare it!
+
+A variable can store values like sum of 2 other variables.
+
+OPERATORS:
+Arithmetic operators (e.g. +, -, *, /, %)
+Comparison operators (e.g. >, <, >=, <=, ==, !=)
+Logical operators (e.g. &&, ||, !)
+Assignment operators (e.g. =, +=, -=, *=, /=)
+Conditional (ternary) operator (e.g. ?:)
