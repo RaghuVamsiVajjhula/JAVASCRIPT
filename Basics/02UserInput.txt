@@ -1,0 +1,8 @@
+Declare a variable and use prompt() to get the input from the user.
+
+var input=prompt("Enter your name:");
+
+On using the above line of code we get a popup from the broweser asking the
+given input line.we can enter the input into the box present.
+
+It takes the input and stores into the variable.
