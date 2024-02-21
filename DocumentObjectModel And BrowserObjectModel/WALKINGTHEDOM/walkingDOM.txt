@@ -1,0 +1,52 @@
+ Whenver we visit an html page so it contains many html elements in it.
+If we want to manipulate the html elements with javascript we need to use DOM.
+For example:
+We see HTML CSS JAVASCRIPT on a nav bar of a  website and assume we see the
+text in blue color now if we want to change one of them into red or someother color we can use js.
+
+Syntax:
+document.getElementsByClassName("class name here").style.color="red";
+
+
+It refers to HTML page where all nodes are objects.There are mainly 3 nodes in DOM tree:
+1.Text nodes
+2.Element nodes
+3.Comment nodes
+
+In an html page <html> is at the root and <head> and <body> are its children and these children further
+consists their children.
+A text node is always a leaf of the tree.
+
+
+AUTOCORRECTION:
+If there is an error in html the browser tends to correct it.
+
+For example if you open a span tag and gave some statement ended it with div tag.
+So the browser automatically ends it with span tag at the end of body and it will ignore
+the ending of div tag.
+
+Another example where we have tbody tag under the table element.If you dont insert tbody so
+by default it is automatically added into it by the browser.
+
+
+
+On using document.head we get the head element of the html
+On also document.documentElement gives us all the elements present inside code.
+On using document.title we get the title of the webpage which is written in HTML.
+
+typeof document.title returns the type if the title
+Example for the website: codewithharry.com the title is given as Learn to code online for free.
+
+So,
+typeof document.title returns the value string.
+typeof document.documentElement returns the value object as the document element is an 
+object created to an html page.
+
+
+Note: the document.body returns null if the javascript is written before the body tag in html.
+as the document.body returns the value after completion of body element if you place it before 
+the body tag it cant determine the body tag.
+
+
+
+
