@@ -22,3 +22,7 @@ function multiply(num1,num2)
 }
 let place=multiply(2,3);
 console.log("Multiplication of 2 numbers is :",place);
+
+// Now we want to create a function which will take many number of arguments like the number of arguments it takes is not known before.
+
+// Refer arguments.js for that solution.
